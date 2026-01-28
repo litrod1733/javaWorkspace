@@ -3,7 +3,7 @@ package ch03.sec01;
 public class IncreaseOp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// 증감 연산자
 		int x = 1;
 		int y = 1;
 		
@@ -18,6 +18,11 @@ public class IncreaseOp {
 		
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
+		
+		// 비트 반전 연산자
+		System.out.println("10을 ~ 연산 적용하면? " + ~10);
+		
+		
 	}
 
 }
